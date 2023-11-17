@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-from tensorflow import keras
+import tensorflow as
 
 # Load the saved scaler model
 with open('scaler.pkl', 'rb') as scaler_file:
@@ -11,7 +11,7 @@ with open('scaler.pkl', 'rb') as scaler_file:
 best_model_path = "best_model.h5"
 
 # Load the saved model
-best_model = keras.models.load_model(best_model_path)
+best_model = tf.keras.models.load_model(best_model_path)
 
 # Define the input form
 st.title('Customer Churn Prediction')
