@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-import tensorflow as
+import tensorflow as tf
 
 # Load the saved scaler model
 with open('scaler.pkl', 'rb') as scaler_file:
