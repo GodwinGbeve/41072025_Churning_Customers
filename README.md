@@ -1,5 +1,7 @@
 # 41072025_Churning_Customers
 
+**Churn deployment web app:** https://41072025churningcustomers-cmjsqvzapp5dmxoydlgzjn.streamlit.app/
+
 # Churn Prediction App
 
 **Overview**
@@ -13,17 +15,17 @@ This repository contains code for a Churn Prediction App that utilizes a machine
 
 **Technologies Used**
 - Python
-- Jupyter Notebook
+- Google Colab
 - TensorFlow
 - Scikit-learn
 - Streamlit
 
 **Files**
-- `Godwin_Gbeve_Assignment_3.ipynb`: Jupyter Notebook with data processing, exploration, and model training.
+- `Godwin_Gbeve_Assignment_3.ipynb`: Google colab file with data processing, exploration, and model training.
 - `model.pkl`: Pickle file containing the trained machine learning model.
 - `scaler.pkl`: Pickle file containing the StandardScaler used for input data scaling.
 - `requirements.txt`: List of required Python packages for running the app.
-- `app.py`: Streamlit app code for user interaction and predictions.
+- `Churn.py`: Streamlit app code for user interaction and predictions.
 
 **How to Use**
 1. Install the required packages by running `pip install -r requirements.txt`.
@@ -35,10 +37,10 @@ This repository contains code for a Churn Prediction App that utilizes a machine
 The app is deployed using Streamlit, offering a simple and intuitive interface for users. The trained model (`model.pkl`) and the StandardScaler (`scaler.pkl`) are loaded within the app for making accurate predictions.
 
 **Acknowledgments**
-This project is part of an assignment, covering data cleaning, exploration, and the development of a machine learning model for predicting customer churn.
+This project is part of an assignment covering data cleaning, exploration, and the development of a machine-learning model for predicting customer churn.
 
 **Instructions**
-Feel free to explore the Jupyter Notebook (`Godwin_Gbeve_Assignment_3.ipynb`) for a detailed walkthrough of the data processing and model training steps.
+Feel free to explore the Google Colab file(`Godwin_Gbeve_Assignment_3.ipynb`) for a detailed data processing and model training steps walkthrough.
 
 **Future Enhancements**
 Possible future enhancements include:
@@ -46,4 +48,3 @@ Possible future enhancements include:
 - Adding more features for better prediction accuracy.
 - Enhancing the app's visual appearance and user experience.
 
-For any questions or issues, please contact the repository owner.
