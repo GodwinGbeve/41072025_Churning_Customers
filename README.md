@@ -2,6 +2,9 @@
 
 **Churn deployment web app:** https://41072025churningcustomers-cmjsqvzapp5dmxoydlgzjn.streamlit.app/
 
+**Churn Web App Demo** : https://youtu.be/_EapOaNuDOc
+
+
 # Churn Prediction App
 
 **Overview**
